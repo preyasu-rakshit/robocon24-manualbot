@@ -74,5 +74,5 @@ while True:
             break
 
 
-video_capture.release()
+cap.release()
 cv2.destroyAllWindows()
