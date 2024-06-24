@@ -9,7 +9,7 @@ def main():
     cuda.init()
 
   # Open video capture
-  cap = cv2.VideoCapture(0)  # Replace 0 with video file path if needed
+  cap = cv2.VideoCapture('http://192.168.29.186:4747/video')  # Replace 0 with video file path if needed
 
   # Blob detection parameters
   params = cv2.SimpleBlobDetector_Params()
